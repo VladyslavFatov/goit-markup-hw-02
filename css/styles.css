@@ -15,7 +15,7 @@ a {
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -33,19 +33,21 @@ a {
 .nav-list .link:hover {
   color: #404bbf;
 }
-.nav-link-span:active {
+.element-studio .link:focus {
   color: #404bbf;
 }
-
+.page-header-address {
+  font-style: normal;
+}
 .address-list .link {
   color: #434455;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-list .link:hover {
+.address-list .link:hover,
+.address-list .link:focus {
   color: #404bbf;
 }
 
@@ -59,16 +61,17 @@ a {
 .section-hero .button {
   color: #fff;
   cursor: pointer;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /* border-radius: 4px; */
+  background-color: #4d5ae5;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
 }
-.section-hero .button:hover {
+.section-hero .button:hover,
+.section-hero .button:focus {
   background: #404bbf;
 }
 .section-hero {
@@ -77,6 +80,7 @@ a {
 
 .feature-list .feature-title {
   color: #2e2f42;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -94,6 +98,9 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.team-list .element {
+  background-color: #ffffff;
 }
 .team-list .title {
   color: #2e2f42;
