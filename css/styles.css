@@ -76,6 +76,11 @@ a {
   background: #2e2f42;
 }
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 .feature-list .feature-title {
   color: #2e2f42;
   font-weight: 500;
